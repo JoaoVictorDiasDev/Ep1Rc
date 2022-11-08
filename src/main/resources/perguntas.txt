@@ -1,0 +1,292 @@
+Total: 29
+
+ID: 1
+Em que ano foi fundada a FIFA?
+a) 1990
+b) 1904
+c) 1900
+d) 1810
+e) 1970
+Fim Pergunta
+Resposta: b
+
+ID: 2
+Em que ano comecou a primeira copa feminina?
+a) 1990
+b) 1930
+c) 1991
+d) 1992
+e) 1995
+Fim Pergunta
+Resposta: c
+
+ID: 3
+Em que pais vai ser a sede da copa do mundo 2022?
+a) Brasil
+b) Franca
+c) Alemanha
+d) Quatar
+e) Espanha
+Fim Pergunta
+Resposta: d
+
+ID: 4
+Em que ano o Brasil conquistou seu ultimo titulo mundial?
+a) 2002
+b) 2014
+c) 1998
+d) 2010
+e) 1980
+Fim Pergunta
+Resposta: a
+
+
+ID: 5
+Qual foi o ultimo campeao da Copa do Mundo?
+a) Brasil
+b) Franca
+c) Alemanha
+d) Quatar
+e) Espanha
+Fim Pergunta
+Resposta: b
+
+ID: 6
+Quem eh o maior campeao de copas do mundo?
+a) Brasil
+b) Franca
+c) Italia
+d) Inglaterra
+e) Espanha
+Fim Pergunta
+Resposta: a
+
+ID: 7
+Qual foi a primeira selecao a ser campea da copa do mundo?
+a) Brasil
+b) Argentina
+c) Italia
+d) Inglaterra
+e) Uruguai
+Fim Pergunta
+Resposta: e
+
+ID: 8
+Onde foi sediada a primeira copa do mundo?
+a) Brasil
+b) Argentina
+c) Italia
+d) Franca
+e) Uruguai
+Fim Pergunta
+Resposta: e
+
+ID: 9
+Em que ano ocorreu a primeira copa do mundo?
+a) 1930
+b) 1940
+c) 1950
+d) 1960
+e) 1920
+Fim Pergunta
+Resposta: a
+
+ID: 10
+Quem foi o artilheiro da ultima copa do mundo?
+a) Harry Kane
+b) Messi
+c) Cristiano Ronaldo
+d) Mbappe
+e) Neymar
+Fim Pergunta
+Resposta: a
+
+ID: 11
+Quem foi eleito melhor jogador da ultima copa do mundo?
+a) Harry Kane
+b) Modric
+c) Cristiano Ronaldo
+d) Mbappe
+e) Neymar
+Fim Pergunta
+Resposta: b
+
+ID: 12
+Quanto tempo demorou para a copa do mundo voltar a ocorrer no Brasil?
+a) 60 anos
+b) 64 anos
+c) 50 anos
+d) 20 anos
+e) 45 anos
+Fim Pergunta
+Resposta: b
+
+ID: 13
+Quem ficou conhecido por morder outro jogador durante uma partida na copa do mundo?
+a) Soares
+b) Zidane
+c) Sergio Ramos
+d) Thiago Silva
+e) Neymar
+Fim Pergunta
+Resposta: a
+
+ID: 14
+Quem ficou conhecido por cabecear outro jogador durante uma partida na copa do mundo?
+a) Soares
+b) Maradona
+c) Sergio Ramos
+d) Pepe
+e) Zidane
+Fim Pergunta
+Resposta: b
+
+ID: 15
+Qual foi a maior goleada sofrida pela selecao brasileira em uma copa do mundo?
+a) 5x0
+b) 6x2
+c) 8x0
+d) 7x0
+e) 11x0
+Fim Pergunta
+Resposta: d
+
+ID: 16
+Qual o jogador eleito o rei do futebol?
+a) Cristiano Ronaldo
+b) Maradona
+c) Messi
+d) Neymar
+e) Pele
+Fim Pergunta
+Resposta: e
+
+ID: 17
+Quantas copas do mundo o Brasil ja ganhou?
+a) 6
+b) 4
+c) 5
+d) 1
+e) 3
+Fim Pergunta
+Resposta: c
+
+ID: 18
+Quem eh o o maior artilheiro de copas do mundo?
+a) Cristiano Ronaldo
+b) Miroslav Klose
+c) Messi
+d) Neymar
+e) Pele
+Fim Pergunta
+Resposta: b
+
+ID: 19
+Quem ganhou a ultima copa do mundo sediada no Brasil?
+a) Alemanha
+b) Argentina
+c) Franca
+d) Russia
+e) Uruguai
+Fim Pergunta
+Resposta: a
+
+ID: 20
+Qual o jogador que possui mais titulos de melhor do mundo ira jogar na copa de 2022?
+a) Cristiano Ronaldo
+b) Miroslav Klose
+c) Messi
+d) Neymar
+e) Pele
+Fim Pergunta
+Resposta: c
+
+ID: 21
+Qual foi a selecao campea de 2002?
+a) Alemanha
+b) Argentina
+c) Franca
+d) Russia
+e) Brasil
+Fim Pergunta
+Resposta: e
+
+ID: 22
+Qual foi a selecao campea de 2010?
+a) Alemanha
+b) Argentina
+c) Espanha
+d) Russia
+e) Brasil
+Fim Pergunta
+Resposta: e
+
+ID: 23
+Quantas copas do mundo ja ocorreram?
+a) 30
+b) 21
+c) 17
+d) 44
+e) 36
+Fim Pergunta
+Resposta: b
+
+ID: 24
+Qual a selecao feminina que mais obteve titulos?
+a) Alemanha
+b) Argentina
+c) Estados Unidos
+d) Russia
+e) Brasil
+Fim Pergunta
+Resposta: c
+
+ID: 25
+Segundo a previsao dos simpsons, qual a selecao que seria campea em 2018?
+a) Alemanha
+b) Argentina
+c) Estados Unidos
+d) Russia
+e) Brasil
+Fim Pergunta
+Resposta: e
+
+ID: 26
+Qual jogador brasileiro mais participou de copas do mundo?
+a) Thiago Alves
+b) Cafu
+c) Zico
+d) Neymar
+e) Daniel
+Fim Pergunta
+Resposta: b
+
+ID: 27
+Qual selecao ja obteve na mesma edicao os dois melhores laterais do mundo?
+a) Alemanha
+b) Argentina
+c) Estados Unidos
+d) Russia
+e) Brasil
+Fim Pergunta
+Resposta: e
+
+ID: 28
+Quantas vezes a Copa do Mundo foi disputada no Brasil?
+a) 0
+b) 1
+c) 2
+d) 3
+e) 4
+Fim Pergunta
+Resposta: c
+
+ID: 29
+Qual pais com mais participacoes em Copas?
+a) Alemanha
+b) Argentina
+c) Estados Unidos
+d) Russia
+e) Brasil
+Fim Pergunta
+Resposta: e
