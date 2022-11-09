@@ -5,10 +5,8 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class Cliente implements Runnable{
-    private static String server_address;
-    private static int porta;
     private ClienteSocket clientSocket;
-    private Scanner scanner;
+    private final Scanner scanner;
 
     public Cliente()
     {
@@ -20,10 +18,10 @@ public class Cliente implements Runnable{
         // Inicia conexao do Cliente ao servidor
         try {
             System.out.println("Digite o IP do servidor (IP Local: 127.0.0.1)");
-            server_address = scanner.nextLine();
+            String server_address = scanner.nextLine();
 
             System.out.println("Digite a porta");
-            porta = scanner.nextInt();
+            int porta = scanner.nextInt();
 
             // Cria ClientSocket para gerenciar conexao cliente-serivdor
             clientSocket = new ClienteSocket(new Socket(server_address, porta));
@@ -46,8 +44,7 @@ public class Cliente implements Runnable{
     }
 
     // Fica em loop esperando uma nova linha do cliente. Quando recebe nova linha, envia para servidor
-    private void messageLoop() throws IOException
-    {
+    private void messageLoop() {
         String msg;
 
         do{

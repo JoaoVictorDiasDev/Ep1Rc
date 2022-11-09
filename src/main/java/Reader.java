@@ -1,10 +1,8 @@
 package main.java;
 
-import javax.imageio.stream.FileImageInputStream;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Scanner;
 
 // Classe responsavel por ler conteudo do arquivo perguntas.txt
 public class Reader {
@@ -12,9 +10,6 @@ public class Reader {
     private static String currentAnswer; // Resposta para pergunta atual
     public static String[] questionsArray; // Array com todas perguntas de um quiz
     public static String[] answersArray; // Array com todas respostas de um quiz
-    public static void main(String[] args) throws Exception {
-
-    }
 
     // Retorna quantidade de perguntas no quiz
     public static int getAmountOfQuestions(){
@@ -36,7 +31,6 @@ public class Reader {
     // Retorna pergunta com o id passado como parametro
     // Coloca na variavel currentAnswer a resposta da pergunta que foi buscada
     public static String getQuestionByID(int id){
-
         try {
             InputStream in = Reader.class.getClassLoader().getResourceAsStream("perguntas.txt");
             BufferedReader bf = new BufferedReader(new InputStreamReader(in));
@@ -47,20 +41,18 @@ public class Reader {
                 temp = bf.readLine();
             }
 
-            String res = "";
+            StringBuilder res = new StringBuilder();
 
             while(!temp.equals("Fim Pergunta")) {
                 String next = bf.readLine();
                 if(next.contains("Fim Pergunta")) break;
-                res += "\n" + next;
+                res.append("\n").append(next);
             }
 
             currentAnswer = bf.readLine().substring(10);
 
-
             bf.close();
-            return res;
-
+            return res.toString();
 
         } catch (Exception e){
             System.out.println("Problema ao carregar arquivo em getQuestionByID");
@@ -84,12 +76,5 @@ public class Reader {
             questionsArray[i] = Reader.getQuestionByID(randomIds.get(i));
             answersArray[i] = currentAnswer;
         }
-    }
-
-
-    // -- Getters e Setters -- //
-
-    public static String getAnwser(){
-        return currentAnswer;
     }
 }

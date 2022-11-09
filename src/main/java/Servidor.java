@@ -92,7 +92,6 @@ public class Servidor {
                 if(getState() == State.CHAT) {
                     System.out.println("Recebeu uma mensagem no estado Chat");
                     sendMsgToAll(clientSocket, username + ": " + msg);
-                    msg.toLowerCase();
 
                     //Caso a mensagem contenha "iniciar quiz", executa procedimento para inicio do quiz
                     if(msg.contains("iniciar quiz"))	{
@@ -156,7 +155,8 @@ public class Servidor {
         {
             sendMsg(clientSocket, "Voce ja respondeu!");
         } else {
-            String temp = String.format("Voce escolhe a alternativa (%s). Aguardando todos responderem", msg);
+            String temp = String.format("Voce escolheu a alternativa (%s). Aguardando todos responderem", msg);
+
             sendMsg(clientSocket, temp);
 
             //Verifica se acertou resposta
@@ -178,15 +178,15 @@ public class Servidor {
     // Caso sim, imprime o resultado
     private boolean verifyEnd(){
         if(contadorDePerguntas >= perguntasPorQuiz && haveAllAnswers()){
-            String ranking = "------- RESULTADOS --------\n";
+            StringBuilder ranking = new StringBuilder("------- RESULTADOS --------\n");
             Collections.sort(clientes);
             for (int i = 1; i <= clientes.size(); i++){
-                ranking += String.format("%d° - %s: %d/%d\n", i, clientes.get(i - 1).getUsername(), clientes.get(i - 1).getAcertos(), perguntasPorQuiz);
+                ranking.append(String.format("%d° - %s: %d/%d\n", i, clientes.get(i - 1).getUsername(), clientes.get(i - 1).getAcertos(), perguntasPorQuiz));
                 clientes.get(i - 1).resetAcertos();
             }
-            ranking += "\nQuiz finalizado, voltando ao chat";
+            ranking.append("\nQuiz finalizado, voltando ao chat");
             clientesRespondidos.clear();
-            sendMsgToAll(ranking);
+            sendMsgToAll(ranking.toString());
             contadorDePerguntas = 0;
             return true;
         }

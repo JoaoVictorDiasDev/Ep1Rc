@@ -1,11 +1,8 @@
 package main.java;
 
-import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.*;
 import java.net.Socket;
 import java.net.SocketAddress;
-import java.io.PrintWriter;
 
 public class ClienteSocket implements Comparable<ClienteSocket> {
     private final Socket socket;
@@ -14,17 +11,6 @@ public class ClienteSocket implements Comparable<ClienteSocket> {
 
     private int acertos;
     private String username;
-
-
-
-    public ClienteSocket(Socket socket, String username) throws IOException
-    {
-        this.socket = socket;
-        this.in = new BufferedReader(new InputStreamReader(socket.getInputStream())); //recebe mensagem do cliente
-        this.out = new PrintWriter(socket.getOutputStream(), true); //envia mensagens para o servidor
-        this.username = username;
-    }
-
 
     public ClienteSocket(Socket socket) throws IOException
     {
