@@ -15,7 +15,6 @@ public class ClienteSocket implements Comparable<ClienteSocket> {
     public ClienteSocket(Socket socket) throws IOException
     {
         this.socket = socket;
-        System.out.println("Cliente " + socket.getRemoteSocketAddress() + " conectou");
         this.in = new BufferedReader(new InputStreamReader(socket.getInputStream())); //recebe mensagem do cliente
         this.out = new PrintWriter(socket.getOutputStream(), true); //envia mensagens para o servidor
     }

@@ -44,6 +44,7 @@ public class Servidor {
             ClienteSocket clientSocket = new ClienteSocket(serverSocket.accept());
             sendMsg(clientSocket, "Digite seu username");
             clientSocket.setUsername();
+            System.out.println("Cliente " + clientSocket.getRemoteSocketAddress() + " conectou");
 
             //Inicia nova Thread para poder gerenciar chat / quiz podendo simultaneamente receber novas conexoes
             new Thread(() -> clientMessageLoop(clientSocket)).start();
